@@ -4,9 +4,9 @@ require "stringex"
 
 ## -- Rsync Deploy config -- ##
 # Be sure your public key is listed in your server's ~/.ssh/authorized_keys file
-ssh_user       = "user@domain.com"
-ssh_port       = "22"
-document_root  = "~/website.com/"
+ssh_user       = "jeff@canuckistani.ca"
+ssh_port       = "4242"
+document_root  = "/data/sites/newblog/public"
 rsync_delete   = true
 deploy_default = "rsync"
 
@@ -68,7 +68,9 @@ task :watch do
     exit 0
   }
 
-  [jekyllPid, compassPid].each { |pid| Process.wait(pid) }
+  [jekyllPid, compassPid].each { |pid| 
+    Process.wait(pid) 
+  }
 end
 
 desc "preview the site in a web browser"
