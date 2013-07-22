@@ -1,0 +1,39 @@
+#!/usr/bin/env node
+
+var util = require('util'),
+	fs = require('fs'),
+	path = require('path')
+
+var L = util.puts,
+	D = util.inspect,
+	F = util.format
+
+var _ = require('underscore')
+var compressor = require('node-minify')
+
+var concatFile = './source/javascripts/all.js',
+	minFile = './source/javascripts/all-min.js';
+
+var files = fs.readdirSync('./js-src'), _src = '';
+
+files.sort();
+
+for (var i = 0; i < files.length; i++) {
+	var file = './js-src/'+files[i];
+	_src += "\n\n"+fs.readFileSync(file, 'utf8');
+};
+
+fs.writeFileSync(concatFile, _src, 'utf8');
+
+new compressor.minify({
+    type: 'uglifyjs',
+    fileIn: concatFile,
+    fileOut: minFile,
+    callback: function(err) {
+    	if (err) {
+    		console.log(err);
+    	} else {
+    		console.log('minification complete?');
+    	}
+    }
+})

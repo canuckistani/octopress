@@ -1,0 +1,25 @@
+---
+layout: post
+title: "JSConf EU 2012"
+date: 2012-10-12 13:27
+comments: true
+categories: 
+---
+
+<img src="https://lh4.googleusercontent.com/-xK1ZlsxjFok/UHh9ZexV2QI/AAAAAAAAD6o/2qToAZX0Tng/s766/IMG_20121009_135502.jpg">
+
+Last week/end I was fortunate to be able to travel to Berlin and attend <a target="_blank" href="http://2012.jsconf.eu/">JSConf EU 2012</a> and it's sibling conference, <a target="_blank" href="http://rejectjs.org/">Reject.JS</a>. To say I had a great time is a huge understatement. JSConf events ( I've only beem to the European variant, but I assume this applies to other flavours as well ) are intense, informative, challenging, expensive, even exclusive to a certain degree, but above all they're fun. Sure, the cost is formidable, but it is clear to see that all of the tickets sales and sponsorship funds go into the production. As somone who has occasionally organized tech events, the level of production value is pretty astonishing!
+
+I *could* wax poetic for this entire post about how well run JSConf was, but there is nothing really new to report - it was just as well run last year ( although I forget if last year had the frozen yoghurt truck ). The truly great innovation this year was hosting the B track in an inflatable transparent plastic bubble out in the courtyard:
+
+<img src="https://lh4.googleusercontent.com/-h0Ik2GLGxis/UHh9ZbAzaMI/AAAAAAAAD6o/xw24SR4rVkM/s766/IMG_20121007_160101.jpg">
+
+JSConf *is* fun, but it's also a conference for programmers; this year's edition had an *incredibly* wide scope. Starting with RejectJS and then continueing through the weekend, we saw JS powering all manner of things:
+
+* a strongly typed, class-based JS superset, <a target="_blank" href="http://lanyrd.com/2012/jsconfeu/syxtx/">from Microsoft</a>.
+* an AR Drone that charged at red flags <a target="_blank" href="https://lh5.googleusercontent.com/-TSgEIa_ya_g/UHaTPyA6UcI/AAAAAAAAAHo/MVzEaFJ0AbI/s766/IMG_6475.JPG">like a bull at a Matador</a>
+* any <a target="_blank" href="http://lanyrd.com/2012/jsconfeu/syxwd/">number</a> of other sorts of <a target="_blank" href="http://lanyrd.com/2012/jsconfeu/syxwg/">robots</a> and <a target="_blank" href="http://lanyrd.com/2012/jsconfeu/syxwf/">gadgets</a>.
+* <a target="_blank" href="http://lanyrd.com/2012/jsconfeu/syxrq/">a guitar pedal</a> implemented in a browser, distorting live input from a real electric guitar!
+* a programming language <a target="_blank" href="http://lanyrd.com/2012/jsconfeu/syxqr/">intended for children</a>, but tested on aging parents
+
+Watching these talks I really got this sense of JS spreading at break-neck speed in all possible directions at once. Binary data? Check. Transpiling? Old news, sucka. Robots? Of course! And underlying it all, a burgeoning community that loves JS as it is - with a very bright future ahead of us.

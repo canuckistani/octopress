@@ -1,0 +1,25 @@
+---
+layout: post
+title: "Mozcamp EU 2012"
+date: 2012-09-09 18:43
+comments: true
+categories: 
+---
+
+<img src="https://dl.dropbox.com/u/1212936/mozcamp/PANO_20120909_111806.png">
+
+I'm sitting at the airport, feeling like I've put in an entire week of work in two days. This is Mozcamp, I've come to realize - all the energy, the great conversations, re-connecting with friends &amp; colleagues from all over the project and the world. It's amazing once you're there, and then you collapse from exhaustion once you're out of it.
+
+For those that didn't make my talk due to some dubious excuse ( bwinton, lmandel, I'm look over in your direction ) here are the minimal slides I used:
+
+[https://dl.dropbox.com/u/44296964/addons-navbar-mozcamp/index.html](https://dl.dropbox.com/u/44296964/addons-navbar-mozcamp/index.html)
+
+( [They're on github as well](https://github.com/canuckistani/addons-navbar-mozcamp). ).
+
+These slide are just background though - you can get the gist but I think I'll need to make a more complete blog post about the Jetpack team's work on improving Firefox UX for add-ons in a subsequent post, once I get back from a week &amp; a bit of vacation. Unfortunately, I *know* it wasn't recorded because I had to unplug the mic at the beginning toget rid of some space-dub echo effect coming from the back of the room.
+
+To sum up Mozcamp itself, it's just amazing to me how much energy there is over here in Europe, and I was again impressed not just by the big communities like our Polish hosts, Mozilla Hispano, etc, but also by tiny contingents of people from places like Estonia or Latvia, or very new communities like Tunisia and Kenya. It also really feels like a lot of progress has been made since just last November and Berlin, and I think the [MozReps](https://reps.mozilla.org/) program and all the hard work being done by staff and reps is really paying off.
+
+More than that, Warsaw is the farthest east I've ever travelled ( until you hit Asia ) and it was humbling and impressive at the same time. I saw what I think of as three distinct Warsaws: the shining new towers and bustling city life in the center, the blocky and imposing Soviet-era buildings that are being renewed and repurposed by Poland's economy, and hints and shreds of what remains from before 1945.
+
+While I didn't directly discuss this with any Poles, I did read up on some of [the history](http://en.wikipedia.org/wiki/Ochota_massacre) and am a bit floored, at first by the horrifying tragedy, but also by the Poland I saw right in front of me, revitalized, full of web hackers, inventing the future alongside the rest of us. It's really hard to connect these threads together, and a credit to the people of Poland that they're thriving just 25 years after the Warsaw Pact unravelled. I'd really like to return some time when I have more than 72 hours to spend!

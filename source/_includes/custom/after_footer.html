@@ -1,0 +1,24 @@
+{% comment %}
+  Add content to be output at the bottom of each page. (You might use this for analytics scripts, for example)
+{% endcomment %}
+
+<script type="text/javascript">
+var pp = function(o) { return JSON.stringify(o,null,'  ')};
+</script>
+
+<script type="text/javascript" src="{{root_url}}/javascripts/all-min.js"></script>
+
+<script type="text/javascript">
+$(function() {
+    github.showRepos({
+        user: '{{site.github_user}}',
+        count: '{{site.github_repo_count}}',
+        skip_forks: '{{site.github_skip_forks}}',
+        target: '#gh_repos'
+    });
+
+    getTwitterFeed("{{site.twitter_user}}", {{site.twitter_tweet_count}}, {{site.twitter_show_replies}});
+
+});
+
+</script>

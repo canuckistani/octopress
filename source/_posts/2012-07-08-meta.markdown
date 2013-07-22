@@ -1,0 +1,41 @@
+---
+layout: post
+title: "Meta"
+date: 2012-07-08 14:06
+comments: false
+categories: [mozilla,jetpack,octo,ruby,blog,meta]
+---
+
+I've been threatening to do this for months, this is my blog running using [Octopress](http://octopress.org/), written in markdown and served as static files and served at potentially breathtaking speeds, specially compared to Drupal. Honestly, the hardest bits were an afternoon of swearing and futzing with my ruby environment a few weeks ago so I could get Jekyll ( and the Drupal migration stuff ) working properly. I *think* the content migration went well, and I'm too lazy to do much more than a cursory check.
+
+This ain't pretty, or even particularly fast ( yet ), but the posts are all here  albeit at different urls and I put in a few sensible redirects:
+
+* the url PMO uses redirects properly, so PMO users should see this
+* all domains on this box that aren't already configured somehow in Nginx redirect to the main page.
+* www. -> the bare url, because I'm minimalist like that.
+
+I'm not doing anything super-cool like hosting this in github or dropbox, I am still running a Linode machine because, hell, i like to mess around with redis, python and the like still even though i don't really get paid to code anymore.
+
+I'm pretty pleased with the system &amp; workflow, especially the code highlighting:
+
+``` javascript Good Ol' FizzBuzz
+function fzbz(n) {
+	for (var i = n - 1; i >= 0; i--) {
+		(function() {
+			var s = '';
+			if (i % 3 === 0) s += 'Fizz';
+			if (i % 5 === 0) s += 'Buzz';
+			if (s.length === 0) s = i;
+			console.log(s);
+		})(i)
+	};	
+}
+```
+
+...back in the day I literally lost *weeks* to getting good code highlighting working reliably on Drupal with Geshi. This was so easy in comparison it makes me want to buy a fixie.
+
+If I get some time on planes &amp; whatnot over the next few weeks I'll do some additional work like:
+
+* shed the default theme. I think I'm to old and crufty to go for something as fancy as [Irakli's](http://jeditoolkit.com/), but I'd like to have something a bit more, er, *unique*.
+* improve the performance, I really liked [this writeup of techniques](http://blog.jphpsf.com/2012/06/12/squeezing-octopress-for-faster-load-times/) for really drilling into static file server perf.
+* comments using disqus, I suppose.
